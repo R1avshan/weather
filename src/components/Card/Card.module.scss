@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background: var(--cardsBg);
+    border-radius: 10px;
+    padding: 11px;
+    max-width: 149px;
+    width: 100%;
+    cursor: pointer;
+
+    &__day {
+        color: var(--textColor);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 7px;
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #939CB0;
+        margin-bottom: 12px;
+    }
+
+    &__temp {
+        color: var(--textColor);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__tempNight {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #939CB0;
+        margin-bottom: 6px;
+    }
+    
+    &__info {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #939CB0;
+    }
+}

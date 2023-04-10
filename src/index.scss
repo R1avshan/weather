@@ -1,0 +1,33 @@
+@import './styles/fonts.scss';
+@import './styles/theme.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background: var(--bgDark);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+  @media(max-width: 1250px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
